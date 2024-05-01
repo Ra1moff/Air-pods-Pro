@@ -1,0 +1,222 @@
+@import url(./fonts.css);
+@import url(./common.css);
+
+/* header */
+
+.nav__menu {
+    display: none;
+}
+
+.nav .container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.nav__list {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav__list-link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.nav__icons {
+    display: flex;
+    gap: 25px;
+}
+
+.header > .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    gap: 38px;
+}
+
+.header__title {
+    color: #fff;
+    font-size: 100px;
+    font-family: "Prosto_One";
+    line-height: 75%;
+}
+
+.header__btn {
+    padding: 13px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    gap: 11px;
+    cursor: pointer;
+    color: #171718;
+    font-weight: 500;
+}
+
+/* header */
+
+/* details */
+
+.details__card {
+    display: flex;
+    gap: 30px;
+}
+
+.details__card-txt {
+    padding-top: 63px;
+    max-width: 538px;
+    width: 100%;
+    font-size: 22px;
+    color: #fff;
+}
+
+.details__card-img {
+    padding-top: 30px;
+}
+
+/* details */
+
+/* charging case */
+
+.charging__card {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    gap: 87px;
+}
+
+.charging__card-txt {
+    max-width: 540px;
+    width: 100%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* charging case*/
+
+/* airpods pro */
+
+.airpods__pro {
+    padding-top: 50px;
+}
+
+.airpods__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+}
+
+.airpods__card::before {
+   content: ""; 
+   background: #C4C4C4;
+   height: 1px;
+   width: 61px;
+}
+
+.airpods__card::after {
+    content: ""; 
+    background: #C4C4C4;
+    height: 1px;
+    width: 61px;;
+ }
+
+ .airpods__txt {
+    color: #fff;
+    font-size: 20px;
+    max-width: 333px;
+    width: 100%;
+    text-align: right;
+ }
+
+ .airpods__pro .container {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+ }
+
+ .airpods__txt:nth-of-type(2) {
+    text-align: left;
+ }
+
+/* airpods pro */
+
+/* iphones */
+
+.iphones {
+    padding: 79px 0 55px 0;
+   
+}
+
+.iphones__cards {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.iphones__card {
+    background: #fff;
+    border-radius: 5px;
+    max-width: 255px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.iphones__card-title {
+    font-size: 20px;
+    padding: 15px 0 10px 0;
+}
+
+.iphones__card-txt {
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 0 20px 0;
+}
+
+.iphones__card-btn {
+    padding: 7px 57px;
+    color: #fff;
+    background: #151515;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+/* iphones */
+
+/* footer */
+
+.footer .container {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.footer__list {
+    display: flex;
+    gap: 30px;
+}
+
+.footer__list-link {
+    color: #fff;
+    font-size: 20px;
+}
+
+.footer__cards {
+    display: flex;
+    gap: 29px;
+}
+
+/* footer */
+

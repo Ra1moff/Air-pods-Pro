@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", "ProstoOne";
+}
+
+html,body {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: bottom;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background: url(../img/header/Header.png) center;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    padding: 6px 0;
+    background: #282828;
+    top: 0;
+    position: fixed;
+    width: 100%;
+}
+
+main {
+    background: #151515; 
+}
+
+footer {
+    padding: 81px 0;
+    background: #282828;
+}
+
+
+
+
+
